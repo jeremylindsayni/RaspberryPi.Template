@@ -7,7 +7,7 @@
   "tags": {
     "language": "C#"
   },
-  "sourceName": "RaspberryPiCore",
+  "sourceName": "coreiot",
   "symbols": {
     "runtime": {
       "type": "parameter",

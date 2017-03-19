@@ -1,3 +1,6 @@
 /RaspberryPiCore/RaspberryPiCore/.vs
 /RaspberryPiCore/RaspberryPiCore/bin
 /RaspberryPiCore/RaspberryPiCore/obj
+obj
+bin
+.vs

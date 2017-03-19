@@ -1,0 +1,11 @@
+﻿{
+  "author": "Jeremy Lindsay (jeremylindsayni.wordpress.com)",
+  "classifications": [ "IoT", "Raspberry Pi" ], // Tags used to search for the template.
+  "name": "Empty .NET Core Raspberry Pi project",
+  "identity": "IoT.RaspberryPi.Core",   // A unique ID for the project template.
+  "shortName": "corepi",                 // You can create the project using this short name instead of the one above.
+  "tags": {
+    "language": "C#"                      // Specify that this template is in C#.
+  },
+  "sourceName": "RaspberryPiCore"            // Name of the csproj file and namespace that will be replaced.
+}

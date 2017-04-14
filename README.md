@@ -1,5 +1,5 @@
-# A Raspberry Pi Template for .NET Core projects
-An empty project template for dotnet core IoT applications deployed to the RaspberryPi.
+# A Raspberry Pi Template for .NET Core 2 projects
+An empty project template for .NET Core 2 IoT applications deployed to the RaspberryPi.
 
 I started this project after reading this post:
 https://www.thurrott.com/dev/106624/net-core-comes-quietly-raspberry-pi
@@ -7,6 +7,9 @@ https://www.thurrott.com/dev/106624/net-core-comes-quietly-raspberry-pi
 ## How to install the template
 I wrote about how to use this template and install it into your development environment in this post:  
 https://jeremylindsayni.wordpress.com/2017/03/21/how-to-a-net-core-template-to-create-a-new-project-from-the-command-line-with-dotnet-new-i/
+
+You need .NET Core 2 installed - you can get the most recent previews from here:  
+https://github.com/dotnet/cli/tree/master
 
 Basically clone the repo to a directory (I put mine in the folder below but you can clone it anywhere):  
 <code>C:\Users\Jeremy\Documents\Visual Studio 2017\Templates\ProjectTemplates\Raspberry Pi</code>

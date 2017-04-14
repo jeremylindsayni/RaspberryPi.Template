@@ -1,10 +1,10 @@
-# Raspberry Pi - Template for .NET Core projects
+# A Raspberry Pi Template for .NET Core projects
 An empty project template for dotnet core IoT applications deployed to the RaspberryPi.
 
 I started this project after reading this post:
 https://www.thurrott.com/dev/106624/net-core-comes-quietly-raspberry-pi
 
-# How to install the template
+## How to install the template
 I wrote about how to use this template and install it into your development environment in this post:  
 https://jeremylindsayni.wordpress.com/2017/03/21/how-to-a-net-core-template-to-create-a-new-project-from-the-command-line-with-dotnet-new-i/
 
@@ -20,5 +20,6 @@ Now you can see the list of templates you have installed with this command:
 And you can create a new project (called "MyNewProject") for your IoT device with the command:  
 <code>dotnet new coreiot -n MyNewProject</code>
 
+## More
 See more examples of running .NET Core apps the RaspberryPi ARM device here.  
 https://www.hackster.io/Ra5tko/running-native-net-core-apps-on-raspberry-pi-arm-0bb717

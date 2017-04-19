@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>RaspberryPi.Template</id>
         <version>0.1.0</version>
+        <title>Raspberry Pi 3 roject template for .NET Core 2</title>
         <description>An empty project template for .NET Core 2 IoT applications deployed to the Raspberry Pi 3.</description>
         <authors>Jeremy Lindsay (@jeremylindsayni)</authors>
         <language>en-US</language>
@@ -10,8 +11,5 @@
         <licenseUrl>https://github.com/jeremylindsayni/RaspberryPiTemplate/blob/master/LICENSE</licenseUrl>
         <copyright>Copyright 2017: Jeremy Lindsay. All rights reserved.</copyright>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <packageTypes>
-            <packageType name="Template" />
-        </packageTypes>
     </metadata>
 </package>

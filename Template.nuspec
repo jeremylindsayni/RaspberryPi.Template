@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-    <metadata>
-        <id>RaspberryPi.Template</id>
-        <version>0.1.0</version>
-        <title>Raspberry Pi 3 roject template for .NET Core 2</title>
-        <description>An empty project template for .NET Core 2 IoT applications deployed to the Raspberry Pi 3.</description>
-        <authors>Jeremy Lindsay (@jeremylindsayni)</authors>
-        <language>en-US</language>
-        <projectUrl>https://github.com/jeremylindsayni/RaspberryPiTemplate</projectUrl>
-        <licenseUrl>https://github.com/jeremylindsayni/RaspberryPiTemplate/blob/master/LICENSE</licenseUrl>
-        <copyright>Copyright 2017: Jeremy Lindsay. All rights reserved.</copyright>
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    </metadata>
+    <metadata>
+        <id>RaspberryPi.Template</id>
+        <version>0.1.0</version>
+        <title>Raspberry Pi 3 project template for .NET Core 2</title>
+        <authors>Jeremy Lindsay (@jeremylindsayni)</authors>
+        <owners>Jeremy Lindsay (@jeremylindsayni)</owners>
+        <licenseUrl>https://github.com/jeremylindsayni/RaspberryPiTemplate/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/jeremylindsayni/RaspberryPiTemplate</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>An empty project template for .NET Core 2 IoT applications deployed to the Raspberry Pi 3.
+
+I wrote about how to use this template and install it into your development environment in this post:
+
+https://jeremylindsayni.wordpress.com/2017/03/21/how-to-a-net-core-template-to-create-a-new-project-from-the-command-line-with-dotnet-new-i/</description>
+        <summary>An empty project template for .NET Core 2 IoT applications deployed to the Raspberry Pi 3.</summary>
+        <copyright>Copyright 2017: Jeremy Lindsay. All rights reserved.</copyright>
+        <language>en-US</language>
+    </metadata>
 </package>

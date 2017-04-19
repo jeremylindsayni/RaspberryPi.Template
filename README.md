@@ -5,6 +5,10 @@ I started this project after reading this post:
 https://www.thurrott.com/dev/106624/net-core-comes-quietly-raspberry-pi
 
 ## How to install the template
+
+TL;DR
+<code>dotnet new -i RaspberryPi.Template::*</code>
+
 I wrote about how to use this template and install it into your development environment in this post:  
 https://jeremylindsayni.wordpress.com/2017/03/21/how-to-a-net-core-template-to-create-a-new-project-from-the-command-line-with-dotnet-new-i/
 

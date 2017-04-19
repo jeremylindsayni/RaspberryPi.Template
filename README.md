@@ -6,7 +6,7 @@ https://www.thurrott.com/dev/106624/net-core-comes-quietly-raspberry-pi
 
 ## How to install the template
 
-TL;DR
+<b>TL;DR</b>  
 <code>dotnet new -i RaspberryPi.Template::*</code>
 
 I wrote about how to use this template and install it into your development environment in this post:  

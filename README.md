@@ -15,7 +15,10 @@ https://jeremylindsayni.wordpress.com/2017/03/21/how-to-a-net-core-template-to-c
 You need .NET Core 2 installed - you can get the most recent previews from here:  
 https://github.com/dotnet/cli/tree/master
 
-Basically clone the repo to a directory (I put mine in the folder below but you can clone it anywhere):  
+You can install from nuget using the command:  
+<code>dotnet new -i RaspberryPi.Template::*</code>
+
+Or if you want to install the source code and modify it, clone the repo to a directory (I put mine in the folder below but you can clone it anywhere):  
 <code>C:\Users\Jeremy\Documents\Visual Studio 2017\Templates\ProjectTemplates\Raspberry Pi</code>
 
 Then install the template using the command below:  

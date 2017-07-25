@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RaspberryPiCore
+namespace coreiot
 {
     class Program
     {

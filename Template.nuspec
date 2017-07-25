@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>RaspberryPi.Template</id>
-        <version>0.1.0</version>
+        <version>0.2.0</version>
         <title>Raspberry Pi 3 project template for .NET Core 2</title>
         <authors>Jeremy Lindsay (@jeremylindsayni)</authors>
         <owners>Jeremy Lindsay (@jeremylindsayni)</owners>

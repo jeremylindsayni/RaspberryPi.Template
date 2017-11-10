@@ -18,6 +18,7 @@ var runtime = Argument("runtime", "linux-arm");
 var destinationIp = Argument("destinationPi", "<<the-pi-ip-address>>");
 var destinationDirectory = Argument("destinationDirectory", @"<<the-deployment-folder>>");
 var username = Argument("username", "<<your-username>>");
+var sessionname = Argument("sessionname", "<<your-saved-putty-sessionname>");
 var executableName = Argument("executableName", "coreiot");
 
 //////////////////////////////////////////////////////////////////////
@@ -103,6 +104,31 @@ Task("Deploy")
             var plinkCommand = "chmod u+x,o+x " + destinationDirectory + "/" + executableName;
             Plink(username + "@" + destination, plinkCommand);
         }
+    });
+
+Task("DeployWithPuTTYSession")
+    .IsDependentOn("Publish")
+    .Does(() =>
+    {
+        var files = GetFiles("./publish/*");
+        
+        var destination = sessionname + ":" + destinationDirectory;
+        var fileArray = files.Select(m => @"""" + m.ToString() + @"""").ToArray();
+        Pscp(fileArray, destination, new PscpSettings
+                                            { 
+                                                SshVersion = SshVersion.V2 
+                                            }
+        );
+
+        var plinkCommand = "chmod u+x,o+x " + destinationDirectory + "/" + executableName;
+
+        StartProcess("plink", new ProcessSettings {
+            Arguments = new ProcessArgumentBuilder()
+                .Append(@"-load")
+                .Append(sessionname)
+                .Append(plinkCommand)
+            }
+        );
     });
 
 Task("Default")
